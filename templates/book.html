@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+    <head>
+        <title>{{book.title}} | booklog.cool</title>
+    </head>
+    <body>
+        <div class="title">
+            <h1>{{book.title}}</h1>
+            <h2>{{book.author}}, {{book.year}}</h2>
+            <p>{{book.status}}</p>
+            {% if book.pages %}
+                <div>{{book.pages}} pages</div>
+            {% endif %}
+        </div>
+        <div class="body">
+            <ul>
+                {% for update in book.updates %}
+                    <li>{{update}}</li>
+                {% endfor %}
+            </ul>
+        </div>
+    </body>
+</html>

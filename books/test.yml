@@ -1,0 +1,15 @@
+title: your mom # book title
+author: mc ride # book author
+year: 2038 # year written
+pages: 127 # number of pages
+
+status: reading # to-read / reading / dropped / completed
+
+# if status is reading/completed:
+updates:
+  - page: 74 # [page number]:
+    date: 2021-07-10 # date of the update (in YYYY-MM-DD format)
+    status:  # notes about a given update
+  - page: 102 # [page number]:
+    date: 2021-07-11 # date of the update (in YYYY-MM-DD format)
+    status: wow # notes about a given update
