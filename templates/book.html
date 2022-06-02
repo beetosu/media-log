@@ -14,7 +14,12 @@
         <div class="body">
             <ul>
                 {% for update in book.updates %}
-                    <li>{{update}}</li>
+                    <li>
+                        {{update.date}}: page {{update.page}} ({{update.page|format_percentage(book.pages)}} complete)
+                        {% if update.status %}
+                        <br>&emsp; <i>"{{update.status}}"</i>
+                        {% endif %}
+                    </li>
                 {% endfor %}
             </ul>
         </div>
