@@ -1,2 +1,2 @@
-# actuallygoodreads
-My attempt at making a personal booklogging application that provides a better UX/stats analysis than Goodreads
+# artlogger
+a static, self hosted, and open source site for logging media (currently just books)
