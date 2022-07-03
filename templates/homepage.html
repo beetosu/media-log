@@ -11,12 +11,16 @@ Media
     <section class="media">
         <div class="mediaEntry" id="books">
             <a href="{{book.url}}"><img alt="'A Confederacy of Dunces' cover" src="https://images-na.ssl-images-amazon.com/images/I/51rEO6ZPAdL._SX342_SY445_QL70_ML2_.jpg"/></a>
-            <h2><a href="/books">Books</a></h2>
-            <h3>
-                Currently Reading:<br>
+            <a href="/books" class="category"><h2>Books</h2></a>
+            <p>
+                {% if book.status == 'reading' %}
+                    Currently Reading:<br>
+                {% else %}
+                    Last Read:<br>
+                {% endif %}
                 <a href="{{book.url}}"><em>{{book.title}}</em></a><br>
-                by <a href="/author/john-kennedy-toole">John Kennedy Toole</a>
-            </h3>
+                by John Kennedy Toole
+            </p>
         </div>
     </section>
 {% endblock %}

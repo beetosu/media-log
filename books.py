@@ -10,7 +10,7 @@ def is_well_formed(book):
         return 'rating'
 
 def build_id(book, bookDict):
-    url_title = book['title'].lower().replace(' ', '-')
+    url_title = book['title'].lower().split(':')[0].replace(' ', '-')
     if url_title in bookDict:
         url_title += '-' + str(book['year'])
     return url_title
@@ -26,7 +26,7 @@ def findLatest(bookDict):
 def create():
     books = {}
     for f in listdir("books"):
-        with open(f'books/{f}') as y:
+        with open(f'books/{f}', encoding='utf-8') as y:
             book = yaml.safe_load(y)
         error = is_well_formed(book)
         if error is not None:
