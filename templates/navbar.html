@@ -2,13 +2,32 @@
     nav {
         display: flex;
         justify-content: space-between;
+        
+    }
+    nav a {
+        text-decoration: none;
+        color: #000;
+    }
+
+    nav a:hover, nav a:focus {
+        text-decoration: underline;
+    }
+
+    nav a.name {
+        text-decoration: none !important;
+        font-size: 24px;
+    }
+
+    nav .navLinks {
+        align-self: center;
+        font-size: 18px;
     }
 </style>
 
 <nav>
-    <div class="name">
-        <a href="https://cwalsh.dev"><b>Colin Walsh</b></a>
-    </div>
+    <a class="name" href="https://cwalsh.dev">
+        <h1>Colin Walsh</h1>
+    </a>
     
     <div class="navLinks">
         <a href="https://cwalsh.dev/about">About</a> |
