@@ -4,6 +4,7 @@ year: # year created
 genre: [] # list of genres 
 pages: # number of pages 
 tags: [] # misc tags
+img: # poster / cover (if available)
 
 status: # to-read / reading / dropped / completed
 

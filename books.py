@@ -10,10 +10,18 @@ def is_well_formed(book):
         return 'rating'
 
 def build_id(book, bookDict):
-    url_title = book['title'].replace(' ', '-')
+    url_title = book['title'].lower().replace(' ', '-')
     if url_title in bookDict:
         url_title += '-' + str(book['year'])
     return url_title
+
+def findLatest(bookDict):
+    latest = None
+    for k, v in bookDict.items():
+        lastUpdate = v['updates'][-1]['date']
+        if bookDict.get(latest, v)['updates'][-1]['date'] <= lastUpdate:
+            latest = k
+    return latest
 
 def create():
     books = {}
@@ -26,4 +34,5 @@ def create():
             continue
         bookKey = build_id(book, books)
         books[bookKey] = book
+        books[bookKey]['url'] = f"/book/{bookKey}" # f"https://media.cwalsh.dev/books/{bookKey}"
     return books
