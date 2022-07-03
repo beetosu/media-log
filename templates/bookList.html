@@ -14,7 +14,7 @@ Books
         <div class="mediaEntry">
             <a href="{{book.url}}"><img alt="'{{book.title}}' cover" src="{{book.img}}"/></a>
             <h3>
-                <a href="{{book.url}}"><em>{{book.title}}</em></a><br>
+                <a href="{{book.url}}"><em>{{book.title|truncate(32)}}</em></a><br>
                 by {{book.author}}
             </h3>
         </div>

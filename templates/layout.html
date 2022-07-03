@@ -7,9 +7,10 @@
     </head>
     <body>
         {% include 'navbar.html' %}
-
-        {% block content %}
-        {% endblock %}
+        <div class="content">
+            {% block content %}
+            {% endblock %}
+        </div>
 
         {% include 'footer.html' %}
     </body>
