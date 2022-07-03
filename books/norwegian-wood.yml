@@ -6,7 +6,7 @@ pages: 296 # number of pages
 tags: [  ] # misc tags
 img: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1630460042l/11297._SY475_.jpg # poster / cover (if available)
 
-status:  # to-read / reading / dropped / completed
+status: completed # to-read / reading / dropped / completed
 
 # if status is not to-read:
 updates:
