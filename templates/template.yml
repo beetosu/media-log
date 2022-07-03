@@ -1,18 +1,18 @@
-title: # book title
-author: # book author
-year: # year created
-genre: [] # list of genres 
-pages: # number of pages 
-tags: [] # misc tags
-img: # poster / cover (if available)
+title:  # book title
+author:  # book author
+year:  # year created
+genre: [  ]  # list of genres 
+pages:  # number of pages 
+tags: [  ] # misc tags
+img:  # poster / cover (if available)
 
-status: # to-read / reading / dropped / completed
+status:  # to-read / reading / dropped / completed
 
 # if status is not to-read:
 updates:
-  - page: # [page number]:
-    date: # date of the update (in YYYY-MM-DD format)
-    status: # notes about a given update
+  - page:  # [page number]:
+    date:  # date of the update (in YYYY-MM-DD format)
+    status:  # notes about a given update
 
-review: # if completed (optional)
-rating: # if completed
+review:  # if completed (optional)
+rating:  # if completed
