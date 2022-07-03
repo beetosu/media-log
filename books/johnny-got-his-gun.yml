@@ -1,0 +1,16 @@
+title: Johnny Got His Gun # book title
+author: Dalton Trumbo # book author
+year: 1939 # year created
+genre: [ war, horror ] # list of genres 
+pages: 309 # number of pages 
+tags: [ eng290 ] # misc tags
+img: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1386925458l/51606.jpg # poster / cover (if available)
+
+status: completed # to-read / reading / dropped / completed
+
+# if status is not to-read:
+updates:
+  - page: 309 # [page number]:
+    date: 2020-10-09 # date of the update (in YYYY-MM-DD format)
+
+rating: 8 # if completed

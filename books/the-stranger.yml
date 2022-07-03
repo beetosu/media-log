@@ -1,0 +1,21 @@
+title: The Stranger # book title
+author: Albert Camus # book author
+year: 1942 # year created
+genre: [ philosophy, crime ] # list of genres 
+pages: 123 # number of pages 
+tags: [ own ] # misc tags
+img: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1590930002l/49552._SY475_.jpg # poster / cover (if available)
+
+status: completed # to-read / reading / dropped / completed
+
+# if status is not to-read:
+updates:
+  - page: 63 # [page number]:
+    date: 2022-01-30 # date of the update (in YYYY-MM-DD format)
+  - page: 81
+    date: 2022-05-06
+  - page: 123
+    date: 2022-05-07
+
+review: A lot funnier than I was expecting this to be. Of course the great underlying joke being how the world insists to derive motive and reasoning from a completely unmotivated and detached Meursault. I feel like further readings, in light of the last chapter, will reveal greater depths towards what appears to be a absurdly surface-level individual.
+rating: 10

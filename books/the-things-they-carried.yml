@@ -1,0 +1,22 @@
+title: The Things They Carried # book title
+author: Tim O'Brien # book author
+year: 1990 # year created
+genre: [ historical fiction, war ] # list of genres 
+pages: 246 # number of pages 
+tags: [ eng290 ] # misc tags
+img: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1424663847l/133518.jpg # poster / cover (if available)
+
+status: completed # to-read / reading / dropped / completed
+
+# if status is not to-read:
+updates:
+  - page: 26 # [page number]:
+    date: 2020-10-20 # date of the update (in YYYY-MM-DD format)
+  - page: 67 # [page number]:
+    date: 2020-10-21 # date of the update (in YYYY-MM-DD format)
+  - page: 189 # [page number]:
+    date: 2020-10-23 # date of the update (in YYYY-MM-DD format)
+  - page: 246 # [page number]:
+    date: 2020-10-23 # date of the update (in YYYY-MM-DD format)
+
+rating: 9 # if completed

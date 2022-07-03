@@ -1,0 +1,16 @@
+title: World War One British Poets # book title
+author: Candace Ward # book author
+year: 1997 # year created
+genre: [ poetry, war ] # list of genres 
+pages: 71 # number of pages 
+tags: [ eng290 ] # misc tags
+img: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1416873208l/33538.jpg # poster / cover (if available)
+
+status: completed # to-read / reading / dropped / completed
+
+# if status is not to-read:
+updates:
+  - page: 71 # [page number]:
+    date: 2020-09-11 # date of the update (in YYYY-MM-DD format)
+
+rating: 6 # if completed

@@ -1,0 +1,28 @@
+title: "The Pragmatic Programmer: From Journeyman to Master" # book title
+author: [ Andy Hunt, Dave Thomas ] # book author
+year: 2019 # year created
+genre: [ non-fiction, computer science ] # list of genres 
+pages: 321 # number of pages 
+tags: [ own ] # misc tags
+img: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1564417439l/52715562._SX200_SY200_.jpg # poster / cover (if available)
+
+status: completed # to-read / reading / dropped / completed
+
+# if status is not to-read:
+updates:
+  - page: 10 # [page number]:
+    date: 2022-05-15 # date of the update (in YYYY-MM-DD format)
+  - page: 73 # [page number]:
+    date: 2022-05-25 # date of the update (in YYYY-MM-DD format)
+  - page: 112 # [page number]:
+    date: 2022-05-29 # date of the update (in YYYY-MM-DD format)
+  - page: 169 # [page number]:
+    date: 2022-05-30 # date of the update (in YYYY-MM-DD format)
+  - page: 243 # [page number]:
+    date: 2022-05-31 # date of the update (in YYYY-MM-DD format)
+    status: I want to get back to reading fiction, but I feel like if I sidetrack this I'll never finish it so I'm trying to power through. Thankfully it's getting to the "I learned this in college already" section
+  - page: 321
+    date: 2022-05-31
+
+review: It seems that a fairly common criticism that a lot of the content in this book is obvious/simple (even as a new grad with minimal industry experience there were some things that felt kinda redundant) but I think part of the magic is how it quantifies all the little things. There's something weirdly cathartic in just having unspoken rules solidified into text and elaborated on. Also of course for complete newcomers this stuff is invaluable. This book accomplishes exactly what it sets out to do and then some. [Recommended to new grads, students about to take internships/software engineering courses] # if completed (optional)
+rating: 9 # if completed

@@ -1,0 +1,19 @@
+title: "Capitalist Realism: Is There No Alternative?" # book title
+author: Mark Fisher # book author
+year: 2009 # year created
+genre: [ non-fiction, political ] # list of genres 
+pages: 81 # number of pages 
+tags: [ own ] # misc tags
+img: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1426633608l/6763725.jpg # poster / cover (if available)
+
+status: completed # to-read / reading / dropped / completed
+
+# if status is not to-read:
+updates:
+  - page: 53 # [page number]
+    date: 2021-11-07 # date of the update (in YYYY-MM-DD format)
+  - page: 81 # [page number]
+    date: 2021-11-08 # date of the update (in YYYY-MM-DD format)
+
+review: A sad, sobering read. I haven't read a lot of theory but this really does feel like a good place to start. Absurdly digestible without compromising depth, it's genuinely eye-opening, kinda depressing, and clinical in it's diagnosis of modern ills. # if completed (optional)
+rating: 10 # if completed

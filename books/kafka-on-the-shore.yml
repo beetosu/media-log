@@ -1,0 +1,28 @@
+title: Kafka on the Shore # book title
+author: Haruki Murakami # book author
+year: 2002 # year created
+genre: [ magical realism ] # list of genres 
+pages: 436 # number of pages 
+tags: [ own ] # misc tags
+img: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1388342391l/45314.jpg # poster / cover (if available)
+
+status: completed # to-read / reading / dropped / completed
+
+# if status is not to-read:
+updates:
+  - page: 50 # [page number]:
+    date: 2021-05-21 # date of the update (in YYYY-MM-DD format)
+  - page: 158
+    date: 2021-07-06
+  - page: 222
+    date: 2021-08-12
+    status: I've had this out in the library for 6 months now. I'm too scared to look at my late fees, just gotta finish it lol
+  - page: 305 
+    date: 2021-08-12
+  - page: 369
+    date: 2021-08-13
+  - page: 436
+    date: 2021-08-14
+
+review: It's hard at first to adjust to this book, and the fact that it flatly refuses to answer any questions it poses in a concrete manner, but that's what makes it so great. It's hard to really describe what it's about apart from a dry, surface level description of the literal events, because there's so much going on that it feels like each person will come away with a different idea of what it's really about *to them*. Really looking forward to reading more Murakami in the future. # if completed (optional)
+rating: 10 # if completed

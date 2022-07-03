@@ -1,0 +1,26 @@
+title: Dispatches # book title
+author: Michael Herr # book author
+year: 1977 # year created
+genre: [ non-fiction, war, journalism ] # list of genres 
+pages: 260 # number of pages 
+tags: [ eng290 ] # misc tags
+img: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1343099128l/4339.jpg # poster / cover (if available)
+
+status: completed # to-read / reading / dropped / completed
+
+# if status is not to-read:
+updates:
+  - page: 18 # [page number]:
+    date: 2020-10-28 # date of the update (in YYYY-MM-DD format)
+  - page: 52 # [page number]:
+    date: 2020-10-28 # date of the update (in YYYY-MM-DD format)
+  - page: 86 # [page number]:
+    date: 2020-10-28 # date of the update (in YYYY-MM-DD format)
+  - page: 167 # [page number]:
+    date: 2020-10-29 # date of the update (in YYYY-MM-DD format)
+  - page: 209 # [page number]:
+    date: 2020-10-30 # date of the update (in YYYY-MM-DD format)
+  - page: 260 # [page number]:
+    date: 2020-10-30 # date of the update (in YYYY-MM-DD format)
+
+rating: 8 # if completed

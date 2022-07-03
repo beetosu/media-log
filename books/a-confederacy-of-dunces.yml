@@ -1,0 +1,13 @@
+title: A Confederacy of Dunces # book title
+author: John Kennedy Toole # book author
+year: 1980 # year written
+pages: 394 # number of pages
+img: https://images-na.ssl-images-amazon.com/images/I/51rEO6ZPAdL._SX342_SY445_QL70_ML2_.jpg
+
+status: reading # to-read / reading / dropped / completed
+
+# if status is reading/completed:
+updates:
+  - page: 58 # [page number]:
+    date: 2022-06-13 # date of the update (in YYYY-MM-DD format)
+    status: This is like, the 3rd or 4th time I'm attempting to read this, gotten farther than ever before, so maybe I'll actually finish? Idk lol # notes about a given update

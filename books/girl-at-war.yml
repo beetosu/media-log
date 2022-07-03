@@ -1,0 +1,26 @@
+title: Girl at War # book title
+author: Sara Nović # book author
+year: 2015 # year created
+genre: [ war, historical ]  # list of genres 
+pages: 320 # number of pages 
+tags: [ eng290 ] # misc tags
+img: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1414348859l/23209971.jpg # poster / cover (if available)
+
+status: completed # to-read / reading / dropped / completed
+
+# if status is not to-read:
+updates:
+  - page: 19 
+    date: 2020-11-02
+  - page: 30 
+    date: 2020-11-03
+  - page: 95 
+    date: 2020-11-06
+  - page: 150 
+    date: 2020-11-08
+  - page: 249
+    date: 2020-11-08
+  - page: 320 
+    date: 2020-11-09
+
+rating: 8 # if completed

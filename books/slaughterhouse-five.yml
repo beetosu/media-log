@@ -1,0 +1,16 @@
+title: Slaughterhouse-Five # book title
+author: Kurt Vonnegut Jr. # book author
+year: 1976 # year created
+genre: [ sci-fi, magical realism, war ] # list of genres 
+pages: 215 # number of pages 
+tags: [own, eng290] # misc tags
+img: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1202155441l/2745816._SY475_.jpg # poster / cover (if available)
+
+status: completed # to-read / reading / dropped / completed
+
+# if status is not to-read:
+updates:
+  - page: 215 # [page number]
+    date: 2020-10-01 # date of the update (in YYYY-MM-DD format)
+
+rating: 10 # if completed

@@ -1,0 +1,16 @@
+title: Unauthorized Bread # book title
+author: Cory Doctorow # book author
+year: 2019 # year created
+genre: [ sci-fi ]  # list of genres 
+pages: 112 # number of pages 
+tags: [  ] # misc tags
+img: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1622586409l/41085118._SX318_.jpg # poster / cover (if available)
+
+status: completed # to-read / reading / dropped / completed
+
+# if status is not to-read:
+updates:
+  - page: 112 # [page number]:
+    date: 2020-11-11 # date of the update (in YYYY-MM-DD format)
+
+rating: 8 # if completed

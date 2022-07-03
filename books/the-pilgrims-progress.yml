@@ -1,0 +1,22 @@
+title: The Pilgrim's Progress # book title
+author: John Bunyan # book author
+year: 1684 # year created
+genre: [ fantasy ]  # list of genres 
+pages: 126 # number of pages 
+tags: [ eng319 ] # misc tags
+img: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1348729141l/976019.jpg # poster / cover (if available)
+
+status: completed # to-read / reading / dropped / completed
+
+# if status is not to-read:
+updates:
+  - page: 46 # [page number]:
+    date: 2022-03-15 # date of the update (in YYYY-MM-DD format)
+  - page: 80 # [page number]:
+    date: 2022-03-22 # date of the update (in YYYY-MM-DD format)
+  - page: 104 # [page number]:
+    date: 2022-03-23 # date of the update (in YYYY-MM-DD format)
+  - page: 126 # [page number]:
+    date: 2022-04-04 # date of the update (in YYYY-MM-DD format)
+
+rating: 6 # if completed

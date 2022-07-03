@@ -1,0 +1,27 @@
+title: "Black Software: The Internet & Racial Justice, from the Afronet to Black Lives Matter" # book title
+author: Charlton D. McIlwain # book author
+year: 2019 # year created
+genre: [ non-fiction, computer science, politics ] # list of genres 
+pages: 272 # number of pages 
+tags: [own] # misc tags
+img: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1566241850l/44244948.jpg # poster / cover (if available)
+
+status: completed # to-read / reading / dropped / completed
+
+# if status is not to-read:
+updates:
+  - page: 28 # [page number]:
+    date: 2020-12-30 # date of the update (in YYYY-MM-DD format)
+  - page: 79
+    date: 2021-01-10
+  - page: 107
+    date: 2021-01-24
+  - page: 145
+    date: 2021-01-24
+  - page: 171
+    date: 2021-01-25
+  - page: 272
+    date: 2021-01-30
+
+review: A lot of standout moments in this book, which chronicles the often overlooked history of black contributions to the development of the internet and the field of computer science. It also provides some great background into the history of racial injustice and the development of technology in the 20th century onward, and how those two often connect.<br>It does, however, feel stretched a bit too thin. The first book in particular has the issue of trying to explore all these innovators, software engineers, and businessmen that built these spaces for POC online, and doing so doesn't really give the reader the space to retain the information provided. Part of that cannot really be helped, as a lot of the stories don't really intersect until the very end, but it becomes difficult to remember each person and the motivations, especially because of how little the individual backgrounds impact the broader story. I was also a little bit disappointed by how little the stories of the 80's and 90's really overlap with more contemporary movements like Black Lives Matter, considering the book is sort of framed around the question "What built the foundation for a movement like BLM?"<br>Despite these issues, it is an important read, especially if you, like me, are in computer science spaces where the historical context of computer science are almost entirely centered around white men, and falsely framed as apolitical. # if completed (optional)
+rating: 6 # if completed

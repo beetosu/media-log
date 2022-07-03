@@ -1,0 +1,16 @@
+title: Comfort Woman # book title
+author: Nora Okja Keller # book author
+year: 1997 # year created
+genre: [ historical, war ]  # list of genres 
+pages: 240 # number of pages 
+tags: [ eng290 ] # misc tags
+img: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1407902352l/819654.jpg # poster / cover (if available)
+
+status: completed # to-read / reading / dropped / completed
+
+# if status is not to-read:
+updates:
+  - page: 240 # [page number]:
+    date: 2020-10-16 # date of the update (in YYYY-MM-DD format)
+
+rating: 7 # if completed

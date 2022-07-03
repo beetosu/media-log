@@ -1,0 +1,24 @@
+title: Roadside Picnic # book title
+author: [  Arkady Strugatsky, Boris Strugatsky ] # book author
+year: 1972 # year created
+genre: [ sci-fi ]  # list of genres 
+pages: 145 # number of pages 
+tags: [  ] # misc tags
+img: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1173812259l/331256.jpg # poster / cover (if available)
+
+status: completed # to-read / reading / dropped / completed
+
+# if status is not to-read:
+updates:
+  - page: 19 # [page number]:
+    date: 2021-09-10 # date of the update (in YYYY-MM-DD format)
+  - page: 55 # [page number]:
+    date: 2021-10-12 # date of the update (in YYYY-MM-DD format)
+  - page: 83 # [page number]:
+    date: 2021-11-05 # date of the update (in YYYY-MM-DD format)
+  - page: 145 # [page number]:
+    date: 2021-11-06 # date of the update (in YYYY-MM-DD format)
+  
+
+review: For such a short read, this feels incredibly dense. One of those books where I just know reading it that it needs several rereads to fully appreciate what it's doing. But even after an initial read I appreciate all that it's doing, and it's sense of surreal hopelessness at an unknowable power. Feels weighty and philosophical without falling too far into dull sci-fi mumbo jumbo. # if completed (optional)
+rating: 8 # if completed

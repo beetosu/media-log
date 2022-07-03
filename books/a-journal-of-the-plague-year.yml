@@ -1,0 +1,16 @@
+title: A Journal of the Plague Year # book title
+author: Daniel Defoe # book author
+year: 1722 # year created
+genre: [ nonfiction, journalism ]  # list of genres 
+pages: 289 # number of pages 
+tags: [ eng319 ] # misc tags
+img: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1593068466l/46730._SY475_.jpg # poster / cover (if available)
+
+status: completed # to-read / reading / dropped / completed
+
+# if status is not to-read:
+updates:
+  - page: 289 # [page number]:
+    date: 2022-02-24 # date of the update (in YYYY-MM-DD format)
+
+rating: 5 # if completed
