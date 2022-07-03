@@ -1,0 +1,23 @@
+{% extends "layout.html" %}
+
+{% block title %}
+Books
+{% endblock %}
+
+{% block content %}
+<header>
+    <a href="../"><- Back to Media</a>
+    <h1>Books</h1>
+</header>
+<section class="books">
+    {% for book in books.values() %}
+        <div class="mediaEntry">
+            <a href="{{book.url}}"><img alt="'A Confederacy of Dunces' cover" src="https://images-na.ssl-images-amazon.com/images/I/51rEO6ZPAdL._SX342_SY445_QL70_ML2_.jpg"/></a>
+            <h3>
+                <a href="{{book.url}}"><em>{{book.title}}</em></a><br>
+                by <a href="/author/john-kennedy-toole">John Kennedy Toole</a>
+            </h3>
+        </div>
+    {% endfor %}
+</section>
+{% endblock %}

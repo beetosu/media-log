@@ -14,8 +14,12 @@ def format_percentage(value, outOf):
 def homepage():
     return render_template('homepage.html', book=bookDict[bookLatest])
 
+@app.route("/books")
+def get_books():
+    return render_template('bookList.html', books=bookDict)
+
 @app.route("/book/latest")
-def latestBook():
+def latest_book():
     return bookDict[bookLatest]
 
 @app.route("/book/<bookId>")
