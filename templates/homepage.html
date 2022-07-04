@@ -10,7 +10,7 @@ Media
     </header>
     <section class="media">
         <div class="mediaEntry" id="books">
-            <a href="/books"><img alt="'A Confederacy of Dunces' cover" src="https://images-na.ssl-images-amazon.com/images/I/51rEO6ZPAdL._SX342_SY445_QL70_ML2_.jpg"/></a>
+            <a href="/books"><img alt="'{{book.title}}' cover" src="{{book.img}}"/></a>
             <a href="/books" class="category"><h2>Books</h2></a>
             <p>
                 {% if book.status == 'reading' %}
@@ -21,7 +21,7 @@ Media
                 <a href="{{book.url}}"><em>{{book.title}}</em></a><br>
                 by
                 {% for author in book.author %}
-                    {{author}}{% if not loop.last %},{% endif %}
+                    {{author|format_author(book.author)}}{% if not loop.last %},{% endif %}
                 {% endfor %}
             </p>
         </div>

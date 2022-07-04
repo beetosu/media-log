@@ -19,7 +19,7 @@ Books
             <p>
                 by 
                 {% for author in book.author %}
-                    {{author}}{% if not loop.last %},{% endif %}
+                    {{author|format_author(book.author)}}{% if not loop.last %},{% endif %}
                 {% endfor %}
                 <br>
                 {{book.status}}{% if 'rating' in book %} | {{book.rating}}/10 {% endif %} 
