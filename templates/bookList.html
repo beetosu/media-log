@@ -5,8 +5,8 @@ Books
 {% endblock %}
 
 {% block content %}
-<header>
-    <a href="../"><- Back to Media</a>
+<header class="mediaList">
+    <a href="../">⬅️ Back to Media</a>
     <h1>Books</h1>
 </header>
 <section class="books">
@@ -14,9 +14,12 @@ Books
         <div class="mediaEntry">
             <a href="{{book.url}}"><img alt="'{{book.title}}' cover" src="{{book.img}}"/></a>
             <h3>
-                <a href="{{book.url}}"><em>{{book.title|truncate(32)}}</em></a><br>
-                by {{book.author}}
+                <a href="{{book.url}}"><em>{{book.title|truncate(32)}}</em></a>
             </h3>
+            <p>
+                by {{book.author}}<br>
+                {{book.status}}{% if 'rating' in book %} | {{book.rating}}/10 {% endif %} 
+            </p>
         </div>
     {% endfor %}
 </section>
