@@ -1,4 +1,5 @@
 import yaml
+from datetime import date
 from os import listdir
 
 def is_well_formed(book):
@@ -23,7 +24,11 @@ def findLatest(bookDict):
             latest = k
     return latest
 
+def byLatestUpdate(book):
+    return book.get('updates', {'date': date(1970, 1, 1)})[-1]['date']
+
 def create():
+    bookLst = []
     books = {}
     for f in listdir("media/books"):
         with open(f'media/books/{f}', encoding='utf-8') as y:
@@ -32,6 +37,9 @@ def create():
         if error is not None:
             print(f"{f} is not a well formed yaml file\n{error} was not found.")
             continue
+        bookLst.append(book)
+    bookLst.sort(key=byLatestUpdate)
+    for book in bookLst[::-1]:
         bookKey = build_id(book, books)
         book['status'] = book['status'].capitalize()
         if isinstance(book['author'], str):
