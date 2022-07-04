@@ -17,7 +17,11 @@ Books
                 <a href="{{book.url}}"><em>{{book.title|truncate(32)}}</em></a>
             </h3>
             <p>
-                by {{book.author}}<br>
+                by 
+                {% for author in book.author %}
+                    {{author}}{% if not loop.last %},{% endif %}
+                {% endfor %}
+                <br>
                 {{book.status}}{% if 'rating' in book %} | {{book.rating}}/10 {% endif %} 
             </p>
         </div>

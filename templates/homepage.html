@@ -19,7 +19,10 @@ Media
                     Last Read:<br>
                 {% endif %}
                 <a href="{{book.url}}"><em>{{book.title}}</em></a><br>
-                by {{book.author}}
+                by
+                {% for author in book.author %}
+                    {{author}}{% if not loop.last %},{% endif %}
+                {% endfor %}
             </p>
         </div>
     </section>

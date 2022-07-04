@@ -7,7 +7,10 @@
 {% block content %}
 <header class="title">
     <h1>{{book.title}}</h1>
-    <h2>{{book.author}}, {{book.year}}</h2>
+    <h2>
+        {% for author in book.author %}
+            {{author}}{% if not loop.last %},{% endif %}
+        {% endfor %}({{book.year}})</h2>
     <p>{{book.status}}</p>
     {% if book.pages %}
         <div>{{book.pages}} pages</div>

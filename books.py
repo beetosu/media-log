@@ -36,6 +36,8 @@ def create():
         book['chartX'] = [u['date'].isoformat() for u in book['updates']]
         book['chartY'] = [u['page'] for u in book['updates']]
         book['status'] = book['status'].capitalize()
+        if isinstance(book['author'], str):
+            book['author'] = [book['author']]
         books[bookKey] = book
         books[bookKey]['url'] = f"/book/{bookKey}" # f"https://media.cwalsh.dev/books/{bookKey}"
     return books
