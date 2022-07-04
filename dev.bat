@@ -1,3 +1,3 @@
-set FLASK_APP=server
+set FLASK_APP=app
 set FLASK_ENV=development
 py -m flask run
