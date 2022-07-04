@@ -92,19 +92,19 @@ header.mediaList a:hover, header.mediaList a:focus {
     margin: 0;
 }
 
-@media screen and (max-width: 1200px) {
+@media (max-width: 1200px) {
     body {
         width: 90vw;
     }
 }
 
-@media screen and (max-width: 875px) {
+@media (max-width: 875px) {
     .media, .books {
         grid-template-columns: repeat(2, 1fr);
     }
 }
 
-@media screen and (max-width: 625px) {
+@media (max-width: 625px) {
     .content {
         width: 90vw;
     }
