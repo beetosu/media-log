@@ -63,3 +63,33 @@ header.mediaList a {
 header.mediaList a:hover, header.mediaList a:focus {
     text-decoration: underline;
 }
+
+.info {
+    display: flex;
+}
+
+.info img {
+    width: 275px;
+    margin-right: 1em;
+}
+
+.info .details h1 {
+    font-size: 36px;
+    margin-top: 0;
+    margin-bottom: .5em;
+}
+
+.info .details h2 {
+    font-weight: initial;
+    margin: .25em 0;
+}
+
+.info .details h3 {
+    font-size: 24px;
+    margin-top: .5em;
+    margin-bottom: 0;
+}
+
+.info .details p {
+    margin: 0;
+}

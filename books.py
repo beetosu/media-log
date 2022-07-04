@@ -33,8 +33,6 @@ def create():
             print(f"{f} is not a well formed yaml file\n{error} was not found.")
             continue
         bookKey = build_id(book, books)
-        book['chartX'] = [u['date'].isoformat() for u in book['updates']]
-        book['chartY'] = [u['page'] for u in book['updates']]
         book['status'] = book['status'].capitalize()
         if isinstance(book['author'], str):
             book['author'] = [book['author']]

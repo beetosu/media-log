@@ -5,48 +5,38 @@
 {% endblock %}
 
 {% block content %}
-<header class="title">
-    <h1>{{book.title}}</h1>
-    <h2>
-        {% for author in book.author %}
-            {{author}}{% if not loop.last %},{% endif %}
-        {% endfor %}({{book.year}})</h2>
-    <p>{{book.status}}</p>
-    {% if book.pages %}
-        <div>{{book.pages}} pages</div>
-    {% endif %}
-</header>
-<div class="body">
-    <ul>
-        {% for update in book.updates %}
-            <li>
-                {{update.date}}: page {{update.page}} ({{update.page|format_percentage(book.pages)}} complete)
-                {% if update.status %}
-                <br>&emsp; <i>"{{update.status}}"</i>
-                {% endif %}
-            </li>
-        {% endfor %}
-    </ul>
-</div>
-<!-- TODO: work on chart thing
-<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-<canvas id="myChart" width="200px" height="200"></canvas>
-<script>
-const ctx = document.getElementById('myChart').getContext('2d');
-const labels = {{book.chartX|tojson}};
-const myChart = new Chart(ctx, {
-    type: 'line',
-    data: {
-        labels: labels,
-        datasets: [{
-            label: 'My First Dataset',
-            data: {{book.chartY}},
-            fill: false,
-            borderColor: 'rgb(75, 192, 192)',
-            tension: 0.1
-        }]
-    },
-});
-</script>
--->
+<section class="info">
+    <img src="{{book.img}}" alt="'{{book.title}}' cover" />
+    <div class="details">
+        <h1>{{book.title}}</h1>
+        <h2>
+            by 
+            {% for author in book.author %}
+                {{author}}{% if not loop.last %},{% endif %}
+            {% endfor %}
+        </h2>
+        <h2>{{book.status}} | {{book.pages}} pages{% if 'rating' in book %} | Rating: {{book.rating}}/10{% endif %}</h2>
+        {% if 'review' in book %}
+            <h3>Review:</h3>
+            <p>{{book.review}}</p>
+        {% endif %}
+    </div>
+</section>
+{% if 'updates' in book %}
+    <section class="log">
+        <h3>Reading Log:</h3>
+        <ul>
+            {% for update in book.updates %}
+                <li>
+                    {{update.date.strftime('%B %d, %Y')}} | page {{update.page}}
+                    {% if 'status' in update %}
+                        <ul class="updateComment">
+                            <li><em>"{{update.status}}"</em></li>
+                        </ul>
+                    {% endif %}
+                </li>
+            {% endfor %}
+        </ul>
+    </section>
+{% endif %}
 {% endblock %}
