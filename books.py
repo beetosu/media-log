@@ -25,8 +25,8 @@ def findLatest(bookDict):
 
 def create():
     books = {}
-    for f in listdir("books"):
-        with open(f'books/{f}', encoding='utf-8') as y:
+    for f in listdir("media/books"):
+        with open(f'media/books/{f}', encoding='utf-8') as y:
             book = yaml.safe_load(y)
         error = is_well_formed(book)
         if error is not None:
@@ -37,5 +37,5 @@ def create():
         if isinstance(book['author'], str):
             book['author'] = [book['author']]
         books[bookKey] = book
-        books[bookKey]['url'] = f"/book/{bookKey}" # f"https://media.cwalsh.dev/books/{bookKey}"
+        books[bookKey]['url'] = f"/book/{bookKey}" # f"https://media.cwalsh.dev/book/{bookKey}"
     return books
