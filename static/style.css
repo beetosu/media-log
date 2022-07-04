@@ -17,7 +17,7 @@ header h1 {
     text-align: center;
 }
 
-.media, .books {
+.media, .books, header.mediaList {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     row-gap: 3em;
@@ -46,12 +46,10 @@ header h1 {
 
 footer {
     align-self: center;
-    margin-bottom: 2em;
+    margin: 2em 0;
 }
 
 header.mediaList {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, 33.33%);
     align-items: center;
 }
 
@@ -92,4 +90,58 @@ header.mediaList a:hover, header.mediaList a:focus {
 
 .info .details p {
     margin: 0;
+}
+
+@media screen and (max-width: 1200px) {
+    body {
+        width: 90vw;
+    }
+}
+
+@media screen and (max-width: 875px) {
+    .media, .books {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width: 625px) {
+    .content {
+        width: 90vw;
+    }
+    .media, .books {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .mediaEntry {
+        align-self: center;
+    }
+
+    header a {
+        display: none;
+    }
+    header.mediaList {
+        display: inline;
+    }
+
+    nav {
+        flex-direction: column;
+    }
+
+    nav a {
+        align-self: center;
+    }
+
+    nav h1 {
+        margin-bottom: 0;
+    }
+
+    .info {
+        flex-direction: column;
+    }
+
+    .info img {
+        align-self: center;
+        margin: 1em 0;
+    }
 }
